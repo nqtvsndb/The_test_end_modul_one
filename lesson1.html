@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<form>
+</form>
+<body>
+<script>
+    let a = 5;
+    let b = 8;
+    Equation(a,b) ;
+    function Equation(a,b) {
+        if ( a !== 0 ) {
+            alert("The solution of the equation is :" + -b / a);
+        }if ( a === 0 && b === 0 ) {
+            alert("The equation has infinitely many solutions");
+        }if ( a === 0 && b !== 0 ) {
+            alert("The equation has no solution");
+        }
+    }
+</script>
+</body>
+</html>

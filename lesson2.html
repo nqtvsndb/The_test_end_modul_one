@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,9,8,7,6];
+    let the_number = + prompt("Enter value and check");
+    check_number(the_number);
+    function check_number(number) {
+        for ( let i = 0; i < arr.length; i++) {
+            if ( arr[i] === number ) {
+                alert("Located in position number " + i + "in array");
+            }
+        }
+    }
+</script>
+</body>
+</html>
